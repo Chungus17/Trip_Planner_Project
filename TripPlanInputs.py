@@ -4,7 +4,7 @@ from plan_window import TripPlanWindow
 import openai
 from tkinter import messagebox
 
-openai.api_key = "YOUR API KEY HERE"
+openai.api_key = "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"
 
 
 def chatGPT_response(prompt):

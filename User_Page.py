@@ -60,7 +60,7 @@ class UserPage:
                 port=5432,
                 database="TripPlannerDB",
                 user="postgres",
-                password="ROOT"
+                password="ROOT123123"
             )
             cursor = connection.cursor()
 
@@ -121,7 +121,7 @@ class UserPage:
                 port=5432,
                 database="TripPlannerDB",
                 user="postgres",
-                password="ROOT"
+                password="ROOT123123"
             )
             cursor = connection.cursor()
 
@@ -147,7 +147,7 @@ class UserPage:
                 port=5432,
                 database="TripPlannerDB",
                 user="postgres",
-                password="ROOT"
+                password="ROOT123123"
             )
             cursor = connection.cursor()
 

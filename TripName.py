@@ -11,7 +11,7 @@ def get_trip_id():
             port=5432,
             database="TripPlannerDB",
             user="postgres",
-            password="ROOT"
+            password="ROOT123123"
         )
         cursor = connection.cursor()
 
@@ -81,7 +81,7 @@ class TripName:
                     port=5432,
                     database="TripPlannerDB",
                     user="postgres",
-                    password="ROOT"
+                    password="ROOT123123"
                 )
                 cursor = connection.cursor()
                 trip_id = get_trip_id()
@@ -127,7 +127,7 @@ class TripName:
                 port=5432,
                 database="TripPlannerDB",
                 user="postgres",
-                password="ROOT"
+                password="ROOT123123"
             )
             cursor = connection.cursor()
 

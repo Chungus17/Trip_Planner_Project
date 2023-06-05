@@ -13,7 +13,7 @@ def check_signup_details(username):
             port=5432,
             database="TripPlannerDB",
             user="postgres",
-            password="ROOT"
+            password="ROOT123123"
         )
         cursor = connection.cursor()
 
@@ -40,7 +40,7 @@ def get_next_id():
             port=5432,
             database="TripPlannerDB",
             user="postgres",
-            password="ROOT"
+            password="ROOT123123"
         )
         cursor = connection.cursor()
 
@@ -64,7 +64,7 @@ def update_database(name, surname, username, password, idd):
             port=5432,
             database="TripPlannerDB",
             user="postgres",
-            password="ROOT"
+            password="ROOT123123"
         )
         cursor = connection.cursor()
         id = idd  # Get NEXT ID using last row of table useraccounts
